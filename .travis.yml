@@ -6,8 +6,8 @@ before_script:
   - mkdir ../build
   - cd ../build
 script:
-  - cmake ../Lab_5
+  - cmake ../Lab6
   - make -j
-  - ./MultiStackTest/MultiStackTest
+  - ./ArrListTest/ArrListTest
 notifications:
   email: false
